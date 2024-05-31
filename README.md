@@ -235,3 +235,23 @@ CREATE TABLE MasterQualityManager (
     FOREIGN KEY (managerID) REFERENCES Managers(managerID),
     FOREIGN KEY (requestID) REFERENCES Requests(requestID)
 );
+
+___________
+1)Создать проект Windows Forms .Net FrameWork
+2)ПО проекту Repair правой кнопкой мыши-ДОБАВИТЬ(Создать Элемент(Модель ADO.NET))
+3)Затем выбираем Самую ПРАВУЮ Code First из базы данных.
+ПОДКЛЮЧЕНИЕ К БД
+1)Создать соединение Проверка подлинности SQL 
+2)Выбираем нашу БД Repair
+3)Называем Model1
+4)Проверяем связь
+
+Создание форм
+1)SignForm
+2)MainFormClient
+3)RequestForm	
+4)MainFormOperator	
+5)MainFormMaster
+6)MainFormManager
+7)Остальные форм
+ всего 8
